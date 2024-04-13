@@ -551,7 +551,7 @@ span{
     font-size: 16px;
     color: white;
 }
-@media(max-width:1285px){
+/* @media(max-width:1285px){
     html{
         font-size: 55%;
     }
@@ -561,8 +561,47 @@ span{
         margin: 0 5rem;
     }
 
+} */
+@media (max-width: 768px) {
+    .header {
+        padding: 1rem;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    section {
+        padding: 1rem;
+    }
 }
-@media(max-width: 991px){
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 1285px) {
+    html {
+        font-size: 50%;
+    }
+
+    .skills-container {
+        padding-bottom: 7rem;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 5rem;
+    }
+}
+/* @media(max-width: 991px){
     html{
         font-size: 50%;
     }
@@ -634,7 +673,7 @@ span{
     .footer ul{
         font-size: 12px;
     }
-}
+} */
 #loom-companion-mv3{
     display: none;
 }
